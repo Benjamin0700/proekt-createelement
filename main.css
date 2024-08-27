@@ -61,7 +61,7 @@
 }
 
 ul li a {
-  color: black;
+  color:  #FFF5E4;
   display: flex;
   align-items: center;
 }
@@ -78,7 +78,7 @@ ul li a {
 }
 
 .footer {
-  background-color: pink;
+  background-color: #DCA47C;
   width: 100%;
 }
 
@@ -96,6 +96,14 @@ nav {
   display: flex;
   align-items: center;
   margin-left: -110px;
+  color: #DCA47C;
+}
+
+.left2 {
+  display: flex;
+  align-items: center;
+  margin-left: -110px;
+  color: #FFF5E4;
 }
 
 .container {
@@ -114,8 +122,34 @@ nav {
   gap: 45px;
 }
 
+.head-a {
+  color: #DCA47C;
+}
+
+.head-a2 {
+  color: #FFF5E4;
+}
+
+.head-a:hover {
+  display: flex;
+  gap: 45px;
+  color: #FFF5E4;
+  transition: 2s;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.head-a2:hover {
+  display: flex;
+  gap: 45px;
+  color: #FFF5E4;
+  transition: 2s;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 ul li a {
-  color: black;
+  color:  #FFF5E4;
   display: flex;
   align-items: center;
 }
@@ -130,13 +164,14 @@ ul li a {
   margin: 0 auto;
   padding: 40px 50px;
   margin-top: 70px;
-  background-color: grey;
+  background-color: #DCA47C;
+  box-shadow: 10px 5px 5px #FFD3B6;
 }
 
 label {
   display: flex;
   flex-direction: column;
-  color: pink;
+  color: #FFF5E4;
   font-family: "Plus Jakarta Sans";
   font-size: 20px;
   font-weight: 700;
@@ -147,6 +182,7 @@ label {
 
 .h1-form {
   font-size: 42px;
+  color: #DCA47C;
 }
 
 .bgInput {
@@ -154,28 +190,31 @@ label {
   border: none;
   width: 100%;
   background-color: transparent;
-  border-bottom: 3px solid pink;
+  border-bottom: 3px solid #FFF5E4;
   background-color: transparent;
-  color: pink;
+  color: #FFF5E4;
   outline: none;
+  font-size: 25px;
 }
 
 .main-btn {
   width: 150px;
   height: 50px;
-  background: pink;
-  color: grey;
+  background: #DCA47C;
+  color: #FFF5E4;
   border: 0;
   border-radius: 6px;
   padding: 20px, 40px, 20px, 40px;
+  box-shadow: 10px 5px 5px #FFD3B6;
   margin-top: 40px;
 }
 
 .main-btn:hover {
   width: 155px; 
   height: 55px; 
-  background: grey; 
-  color: pink; 
+  transition: 2s;
+  background: #FFF5E4; 
+  color: #DCA47C; 
   border: 0; 
   border-radius: 6px; 
   margin-top: 40px; 
@@ -187,6 +226,7 @@ label {
   text-wrap: wrap;
   width: 550px;
   line-height: 78.4px;
+  color: #DCA47C;
 }
 
 .main-text {
@@ -194,11 +234,13 @@ label {
   width: 537px;
   line-height: 27px;
   margin-top: 10px;
+  color: #DCA47C;
 }
 
 .wrapeer-right {
   width: 592px;
 }
+
 
 .main-wrapper {
   justify-content: space-around;
@@ -211,7 +253,7 @@ label {
   width: 384px;
   background: rgba(26, 171, 123, 1);
   padding: 20px;
-  color: white;
+  color:  #B67352;
   transition: 0.2s all ease;
 }
 
@@ -243,8 +285,8 @@ label {
   margin: 10px auto;
   border: none;
   border-radius: 6px;
-  background-color: grey;
-  color: pink;
+  background-color: #DCA47C;
+  color: #FFF5E4;
   font-family: "Plus Jakarta Sans";
   font-size: 16px;
   font-weight: 700;
@@ -259,8 +301,9 @@ label {
 
 .bgButton:hover {
   width: 217px; 
-  background-color: pink; 
-  color: grey; 
+  transition: 2s;
+  background-color: #FFF5E4; 
+  color: #DCA47C; 
   margin-top: 30px; 
 }
 .form {
@@ -296,4 +339,23 @@ label {
   display: flex;
   align-items: center;
   margin-left: 30px;
+}
+
+.box{
+  box-shadow: 10px 5px 5px #FFD3B6;
+  border-radius: 40px;
+}
+
+
+
+.box:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.iframe-h1 {
+  font-size: 34px;
 }
